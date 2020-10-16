@@ -13,7 +13,7 @@ public class Search {
 
     public void search(int value){
         int low = 0;
-        int high = this.list.length;
+        int high = this.list.length-1;
         
         int mid;
         boolean found = false;
